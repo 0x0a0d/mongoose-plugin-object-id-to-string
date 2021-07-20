@@ -1,0 +1,35 @@
+{
+  "name": "mongoose-plugin-object-id-to-string",
+  "version": "1.0.0",
+  "description": "Simple mongoose plugin that auto convert ObjectId to string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "objectid",
+    "object id",
+    "toString",
+    "to string"
+  ],
+  "author": "0x0a0d",
+  "license": "MIT",
+  "devDependencies": {
+    "@cylution/eslint-config-nodejs": "^1.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "mongoose": "^5.13.2",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cylution-org/mongoose-plugin-object-id-to-string"
+  },
+  "files": [
+    "index.ts",
+    "index.js"
+  ]
+}
