@@ -39,7 +39,8 @@ const { plugin } = require('mongoose')
 ```
 
 ```js
-const pluginObjectIdToString = mongoosePluginObjectIdToString() // don't forget this
+// don't forget this
+const pluginObjectIdToString = mongoosePluginObjectIdToString()
 
 // global
 plugin(pluginObjectIdToString)
@@ -47,8 +48,6 @@ plugin(pluginObjectIdToString)
 // or schema
 const userSchema = new Schema({
   //
-}, {
-  timestamps: true,
 })
 
 userSchema.plugin(pluginObjectIdToString)
