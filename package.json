@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-plugin-object-id-to-string",
+  "name": "@cylution/mongoose-plugin-object-id-to-string",
   "version": "1.0.0",
   "description": "Simple mongoose plugin that auto convert ObjectId to string",
   "main": "index.js",
