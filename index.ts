@@ -1,10 +1,10 @@
-import { Schema } from 'mongoose'
+import { Schema, SchemaOptions } from 'mongoose'
 
 export const mongoosePluginObjectIdToString = () => {
   // default mongoose ObjectId to string
   Schema.Types.ObjectId.get(v => v != null ? v.toString() : v)
 
-  const optionKeys = [
+  const optionKeys: Array<keyof SchemaOptions> = [
     'toObject',
     'toJSON',
   ]
